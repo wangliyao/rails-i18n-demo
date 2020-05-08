@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong><%= t("posts.title") %></strong>
+  <%= @post.title %>
+</p>
+
+<p>
+  <strong><%=  t("posts.content") %></strong>
+  byebug
+  <%= @post.content %>
+</p>
+
+<%= link_to t(:edit), edit_post_path(@post) %> |
+<%= link_to t(:back), posts_path %>
