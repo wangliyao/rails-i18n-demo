@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### rails i18n demo
 
-Things you may want to cover:
+* 因为使用actiontext 所以本地需安装 imagemagick 才可以正常显示图片
 
-* Ruby version
+* 执行 bundle install
 
-* System dependencies
+* 执行 rake db:migrate
 
-* Configuration
+* rails s
 
-* Database creation
+* 浏览器打开 localhost:3000/zh/posts 或 localhost:3000/en/posts 或 localhost:3000/posts
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
