@@ -12,3 +12,4 @@
 
 * 浏览器打开 localhost:3000/zh/posts 或 localhost:3000/en/posts 或 localhost:3000/posts
 
+* 使用Gem rails-i18n globalize 
